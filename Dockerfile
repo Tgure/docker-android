@@ -1,8 +1,8 @@
 FROM tgure/java8
 
-ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip" \
-    ANDROID_BUILD_TOOLS_VERSION=29.0.2 \
-    ANDROID_APIS="android-29" \
+ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip" \
+    ANDROID_BUILD_TOOLS_VERSION=30.0.3 \
+    ANDROID_APIS="android-30" \
     ANT_HOME="/usr/share/ant" \
     MAVEN_HOME="/usr/share/maven" \
     GRADLE_HOME="/usr/share/gradle" \
